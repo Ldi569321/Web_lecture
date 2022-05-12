@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>시간표</title>
+</head>
+<style>
+    body {
+        text-align: center;
+    }
+
+    table {
+        border-collapse: collapse;
+        border: 1px solid black;
+    }
+
+    th {
+        background-color: #a8e6cf;
+        border: 1px solid black;
+        width: 20vh;
+        height: 5vh;
+        font-size: 30px;
+    }
+
+    td {
+        background-color: #dcedc1;
+        border: 1px solid black;
+        font-size: 30px;
+    }
+
+    strong {
+        font-size: 50px;
+    }
+</style>
+
+<body oncontextmenu="return false" ondragstart="return faslse" onselectstart="return false">
+    <table>
+        <caption><strong>시간표</strong></caption>
+        <tr class="yellow">
+            <th>&nbsp;</th>
+            <th>월</th>
+            <th>화</th>
+            <th>수</th>
+            <th>목</th>
+            <th>금</th>
+        </tr>
+        <tr>
+            <th class="yellow">1교시</th class="yellow">
+            <td>Github</td>
+            <td rowspan="2">CSS Quiz</td>
+            <td rowspan="3">Youtube - html</td>
+            <td rowspan="3">JS</td>
+            <td rowspan="3">체육대회</td>
+        </tr>
+        <tr>
+            <th class="yellow">2교시</th class="yellow">
+            <td rowspan="2">html</td>
+        </tr>
+        <tr>
+            <th class="yellow">3교시</th class="yellow">
+            <td>CSS</td>
+        </tr>
+        <tr>
+            <th class="yellow" colspan="6">점심시간</th class="yellow">
+        </tr>
+        <tr>
+            <th class="yellow">4교시</th class="yellow">
+            <td rowspan="2">html</td>
+            <td rowspan="3">CSS</td>
+            <td rowspan="3">Youtube - CSS</td>
+            <td rowspan="3">JS 심화</td>
+            <td rowspan="3">체육대회</td>
+        </tr>
+        <tr>
+            <th class="yellow">5교시</th class="yellow">
+        </tr>
+        <tr>
+            <th class="yellow">6교시</th class="yellow">
+           <td>html 실천</td>
+
+        </tr>
+    </table>
+</body>
+
+</html>

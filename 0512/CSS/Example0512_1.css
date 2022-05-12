@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+.container1 {
+    width: 600px;
+    height: 300px;
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.child {
+    width: 100px;
+    height: 50px;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 50px;
+}
+
+.red1 {
+    background-color: rgb(252, 90, 90);
+
+    color: black;
+}
+
+.yellow1 {
+    background-color: rgb(252, 252, 81);
+
+    color: black;
+}
+
+.blue1 {
+    background-color: rgb(91, 91, 248);
+
+    color: white;
+}
+
+.container2 {
+    width: 600px;
+    height: 300px;
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 20px;                                        
+    align-items: center; /*각각 "요소"의 중앙으로 이동*/
+    align-content: center; /*전체적인 "컨테이너2"의 중앙으로 이동*/
+}
+
+.red2 {
+    background-color: rgb(252, 90, 90);
+    width: 300px;
+    height: 50px;
+    color: black;
+}
+
+.yellow2 {
+    background-color: rgb(252, 252, 81);
+    width: 300px;
+    height: 50px;
+    color: black;
+}
+
+.blue2 {
+    background-color: rgb(91, 91, 248);
+    width: 300px;
+    height: 50px;
+    color: white;
+}

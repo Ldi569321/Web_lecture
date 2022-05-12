@@ -1,0 +1,21 @@
+    li {
+        display: inline;
+        border: 1px solid black;
+        padding: 3px 5px;
+        border-collapse: collapse;
+    }
+
+    .temple::after {
+        font-family: "FontAwesome";
+        content: "\f19c";
+    }
+
+    body {
+        text-align: center;
+    }
+
+    button {
+        border: 0;
+        background-color: transparent;
+    }
+

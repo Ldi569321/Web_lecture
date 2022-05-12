@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+
+span {
+    background-color: blue;
+    color: white;
+
+    padding-top: 1000px;        /*흐름을 막는 값은 사용 불가*/
+    margin-bottom: 1000px;      /* " */
+
+    padding-right: 100px;       /*양쪽의 흐름은 제어 가능*/
+    margin-left: 100px;         /* " */
+}
